@@ -149,6 +149,7 @@ random.randrange(1,10)
 
 ```python
 myStr = "hello, world!"
+myStr2 = "Name\tAge\tOccupation"
 ```
 1. **Capitalize:**
    - `myStr.capitalize()`
@@ -175,8 +176,8 @@ myStr = "hello, world!"
    - Result: `True`
 
 7. **Expandtabs:**
-   - `myStr.expandtabs(4)`
-   - Result: `"hello, world!"` (no tabs in string)
+   - `myStr2.expandtabs(4)`
+   - Result: `"Name        Age         Occupation"`
 
 8. **Find:**
    - `myStr.find('world')`
